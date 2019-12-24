@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abf8f0b8-c81f-486a-8b83-d500b64f6a97" name="Default Changelist" comment="" />
+    <list default="true" id="abf8f0b8-c81f-486a-8b83-d500b64f6a97" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../automation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +18,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1VJDexTZbleiARGHRxpzUfpnj78" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,9 +30,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.email_automation">
+  <component name="RunManager" selected="Python.main">
     <configuration name="bu_send_email" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="email" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -32,11 +43,12 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\xiaos\Anaconda3\envs\Guessing_Game\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/bu_send_email.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -58,6 +70,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/email_automation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -79,6 +92,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/gmail_send.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -95,11 +109,12 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\xiaos\Anaconda3\envs\Guessing_Game\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -111,10 +126,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.email_automation" />
-        <item itemvalue="Python.bu_send_email" />
-        <item itemvalue="Python.gmail_send" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.bu_send_email" />
+        <item itemvalue="Python.email_automation" />
+        <item itemvalue="Python.gmail_send" />
       </list>
     </recent_temporary>
   </component>
@@ -140,29 +155,50 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576962402540</updated>
+      <workItem from="1577205789764" duration="250000" />
+      <workItem from="1577206422640" duration="7000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1371" height="232" key="GridCell.Tab.0.bottom" timestamp="1576964818332">
-      <screen x="0" y="33" width="1920" height="1007" />
+    <state x="679" y="195" key="#bu_send_email" timestamp="1577205871811">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="679" y="195" key="#bu_send_email/0.0.1920.1040/-1920.3.1920.1040@0.0.1920.1040" timestamp="1577205871811" />
+    <state x="679" y="135" key="#main" timestamp="1577205986006">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="679" y="135" key="#main/0.0.1920.1040/-1920.3.1920.1040@0.0.1920.1040" timestamp="1577205986006" />
+    <state width="1340" height="266" key="GridCell.Tab.0.bottom" timestamp="1577206040811">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.3.1920.1040@0.0.1920.1040" timestamp="1577206040811" />
     <state width="1371" height="232" key="GridCell.Tab.0.bottom/3840.0.1920.1080/0.33.1920.1007/1920.0.1920.1080@0.33.1920.1007" timestamp="1576964818332" />
-    <state width="1371" height="232" key="GridCell.Tab.0.center" timestamp="1576964818332">
-      <screen x="0" y="33" width="1920" height="1007" />
+    <state width="1340" height="266" key="GridCell.Tab.0.center" timestamp="1577206040811">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1340" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.3.1920.1040@0.0.1920.1040" timestamp="1577206040811" />
     <state width="1371" height="232" key="GridCell.Tab.0.center/3840.0.1920.1080/0.33.1920.1007/1920.0.1920.1080@0.33.1920.1007" timestamp="1576964818332" />
-    <state width="1371" height="232" key="GridCell.Tab.0.left" timestamp="1576964818332">
-      <screen x="0" y="33" width="1920" height="1007" />
+    <state width="1340" height="266" key="GridCell.Tab.0.left" timestamp="1577206040811">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1340" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.3.1920.1040@0.0.1920.1040" timestamp="1577206040811" />
     <state width="1371" height="232" key="GridCell.Tab.0.left/3840.0.1920.1080/0.33.1920.1007/1920.0.1920.1080@0.33.1920.1007" timestamp="1576964818332" />
-    <state width="1371" height="232" key="GridCell.Tab.0.right" timestamp="1576964818332">
-      <screen x="0" y="33" width="1920" height="1007" />
+    <state width="1340" height="266" key="GridCell.Tab.0.right" timestamp="1577206040811">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1340" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.3.1920.1040@0.0.1920.1040" timestamp="1577206040811" />
     <state width="1371" height="232" key="GridCell.Tab.0.right/3840.0.1920.1080/0.33.1920.1007/1920.0.1920.1080@0.33.1920.1007" timestamp="1576964818332" />
     <state x="333" y="84" width="1254" height="912" key="SettingsEditor" timestamp="1576962652664">
       <screen x="0" y="33" width="1920" height="1007" />
     </state>
     <state x="333" y="84" width="1254" height="912" key="SettingsEditor/3840.0.1920.1080/0.33.1920.1007/1920.0.1920.1080@0.33.1920.1007" timestamp="1576962652664" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/email$main.coverage" NAME="main Coverage Results" MODIFIED="1577205986037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/email$bu_send_email.coverage" NAME="bu_send_email Coverage Results" MODIFIED="1577205966438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
   </component>
 </project>

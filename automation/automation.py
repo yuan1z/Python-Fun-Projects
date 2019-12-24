@@ -1,5 +1,5 @@
 from selenium import webdriver
-chrome_browser = webdriver.Chrome('./chromedriver')
+chrome_browser = webdriver.Chrome('./chromedriver.exe')
 chrome_browser.maximize_window()
 chrome_browser.get('https://www.seleniumeasy.com/test/basic-first-form-demo.html')
 print('Selenium Easy Demo - Simple Form to Automate using Selenium' in chrome_browser.title)
@@ -15,4 +15,7 @@ user_message.send_keys('I AM EXTRA COOL') #text to the text box
 button.click()
 output_message = chrome_browser.find_element_by_id('display')
 assert 'I AM EXTRA COOL' in output_message.text
+in_message = chrome_browser.find_element_by_css_selector('input#sum1.form-control')
+
+in_message.send_keys('caonima')
 #chrome_browser.close()
