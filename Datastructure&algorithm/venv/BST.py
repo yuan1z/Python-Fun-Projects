@@ -39,7 +39,12 @@ class BST():
             return start
         return False
 
-
+    def traverse(self,root):
+        if root.left:
+            self.traverse(root.left)
+        print(root.value)
+        if root.right:
+            self.traverse(root.right)
 
 
 
@@ -55,3 +60,4 @@ if __name__=="__main__":
     tree.insert(1)
     print(tree.root.right.right.value)
     print(tree.lookup(170))
+    tree.traverse(tree.root)
