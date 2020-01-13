@@ -45,6 +45,54 @@ class BST():
         print(root.value)
         if root.right:
             self.traverse(root.right)
+    def BFS(self):
+        currentNode = self.root
+        mylist = []
+        queue = []
+        mylist.append(currentNode.value)
+        queue.append(currentNode)
+        while len(queue)!=0:
+            currentNode = queue.pop(0)
+            if currentNode.left:
+                queue.append(currentNode.left)
+                mylist.append(currentNode.left.value)
+            if currentNode.right:
+                queue.append(currentNode.right)
+                mylist.append(currentNode.right.value)
+        return mylist
+
+    def BFSR(self,queue,mylist):
+        if len(queue)==0:
+            return mylist
+        else:
+            currentNode = queue.pop(0)
+            mylist.append(currentNode.value)
+            if currentNode.left:
+                queue.append(currentNode.left)
+            if currentNode.right:
+                queue.append(currentNode.right)
+            return self.BFSR(queue,mylist)
+    def DFSInorder(self,root,mylist):
+        if root.left:
+            self.DFSInorder(root.left,mylist)
+        mylist.append(root.value)
+        if root.right:
+            self.DFSInorder(root.right,mylist)
+        return mylist
+    def DFSPreorder(self,root,mylist):
+        mylist.append(root.value)
+        if root.left:
+            self.DFSPreorder(root.left,mylist)
+        if root.right:
+            self.DFSPreorder(root.right,mylist)
+        return mylist
+    def DFSPostorder(self,root,mylist):
+        if root.left:
+            self.DFSPostorder(root.left, mylist)
+        if root.right:
+            self.DFSPostorder(root.right, mylist)
+        mylist.append(root.value)
+        return mylist
 
 
 
